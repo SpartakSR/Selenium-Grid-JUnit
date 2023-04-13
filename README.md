@@ -14,7 +14,7 @@ cmd /C start java -jar selenium-server-4.8.1.jar hub
 cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4 --port 5555 --driver-implementation "chrome"  
 cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4 --port 5556 --driver-implementation "firefox"
 
-6. Запустим start2.bat и откроем http://localhost:4444/grid/console.
+6. Запустим start3.bat и откроем http://localhost:4444/grid/console.
 
 ![Selenium Grid_page_1](https://user-images.githubusercontent.com/127390983/228631571-82216925-f4f8-4d96-8205-577c6900ee7e.jpg)
 
