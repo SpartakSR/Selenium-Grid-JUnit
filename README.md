@@ -8,7 +8,7 @@
 
 4. Создадим тестовый класс в JUnit.
 
-5. Рапределим браузеры по узлам, в start2.bat запишем:
+5. Рапределим браузеры по узлам, в start3.bat запишем:
  
 cmd /C start java -jar selenium-server-4.8.1.jar hub  
 cmd /C start java -jar selenium-server-4.8.1.jar node --max-sessions 4 --port 5555 --driver-implementation "chrome"  
